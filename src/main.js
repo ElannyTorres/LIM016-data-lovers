@@ -206,7 +206,6 @@ cboDirector.addEventListener("change", () => {
   let director = "director";
   document.getElementById("mainMovieContainer").innerHTML = "";
   let dataFilterFilms = filterByProdAndDirec(dataFilms, selectedFilm, director);
-  console.log(filterByProdAndDirec(dataFilms, selectedFilm, "amaru"));
   for (let i = 0; i < dataFilterFilms.length; i++) {
     // Mostrar posters de la data filtrada
     let containerPosterFilms = document.createElement("div");
