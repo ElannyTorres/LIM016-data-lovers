@@ -43,18 +43,27 @@ cbo.addEventListener("change", () => {
 let fillInSpecies = peopleFilms.map(x => {
   return x.map(person => person.specie)
 });
+console.log("AQUI: ",fillInSpecies);
 let allSpecies = fillInSpecies.reduce(function (a, b) {
   return a.concat(b);
 });
+
+console.log("allSpecies", allSpecies);
+
 let resultSpecies = allSpecies.filter((item, index) => {
   return allSpecies.indexOf(item) === index;
 });
+console.log("RESULT ESPECIES: ",resultSpecies);
+
+
 let sortedSpecies = resultSpecies.sort();
+
 function cargarEspecies() {
   for (var i in sortedSpecies) {
     document.getElementById("specieCharacters").innerHTML += "<option id='" + sortedSpecies[i] + "' value='" + sortedSpecies[i] + "'>" + sortedSpecies[i] + "</option>";
   }
 }
+
 cargarEspecies();
 
 /* Ordering posters Especies */
@@ -192,7 +201,9 @@ sortBy.addEventListener("change", () => {
     let datafilRD = dataFilterFilms[i].release_date;
     let datafilRate = dataFilterFilms[i].rt_score;
     let text = document.createElement("p");
-    text.textContent ="Title: " + datafilTitle + " " + "Release date: " + datafilRD + " " + "Score: " + datafilRate;
+    text.textContent =`Title: ${datafilTitle}
+    Release date: ${datafilRD}
+    Score: ${datafilRate} `;
     containerFilImg.appendChild(img);
     containerFilmInfo.appendChild(text);
   }
@@ -223,8 +234,9 @@ cboDirector.addEventListener("change", () => {
     let datafilRD = dataFilterFilms[i].release_date;
     let datafilRate = dataFilterFilms[i].rt_score;
     let text = document.createElement("p");
-    text.textContent =
-      "Title: " + datafilTitle + " " + "Release date: " + datafilRD + " " + "Score: " + datafilRate;
+    text.textContent =`Title: ${datafilTitle}
+    Release date: ${datafilRD}
+    Score: ${datafilRate} `;
     containerFilImg.appendChild(img);
     containerFilmInfo.appendChild(text);
   }
@@ -255,8 +267,9 @@ cboProducer.addEventListener("change", () => {
     let datafilRD = dataFilterFilms[i].release_date;
     let datafilRate = dataFilterFilms[i].rt_score;
     let text = document.createElement("p");
-    text.textContent =
-      "Title: " + datafilTitle + " " + "Release date: " + datafilRD + " " + "Score: " + datafilRate;
+    text.textContent =`Title: ${datafilTitle}
+    Release date: ${datafilRD}
+    Score: ${datafilRate} `;
     containerFilImg.appendChild(img);
     containerFilmInfo.appendChild(text);
   }
