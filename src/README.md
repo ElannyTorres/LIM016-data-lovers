@@ -39,7 +39,7 @@ Para su correcto funcionamiento el usuario debera elegir entre los métodos de f
 * Filtrado de peliculas por productor
 * Filtrado de personajes por peliculas
 * Filtrado de personajes por especies
-* rdenado por puntajes Rotten Tomatoes
+* Ordenado por puntajes Rotten Tomatoes
 * Ordenado por años de estreno ascendente y descendente
 * Ordenado por letras de abecedario
 
