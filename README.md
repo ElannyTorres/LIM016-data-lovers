@@ -122,17 +122,17 @@ Para su correcto funcionamiento el usuario debera elegir entre los métodos de f
 *Prototipo baja fidelidad
 ## El prototipo inicial fue diseñado a mano 1️⃣
 
-![imagen1](img/prototipo1-1.jpeg)
-![imagen2](img/prototipo1-2.jpeg)
-![imagen3](img/prototipo1-3.jpeg)
-![imagen4](img/prototipo1-4.jpeg)
+![imagen1](src/img/prototipo1-1.jpeg)
+![imagen2](src/img/prototipo1-2.jpeg)
+![imagen3](src/img/prototipo1-3.jpeg)
+![imagen4](src/img/prototipo1-4.jpeg)
 
 *Prototipo alta fidelidad
 ## El segundo prototipo fue diseñado con la herramienta Figma 2️⃣
 
 Link : [Figma](https://www.figma.com/file/oyIhJuBaVWTKzi1VcKnVk3/Ghibli?node-id=0%3A1)
 
-![imagen5](img/prototipo2.jpeg)
+![imagen5](src/img/prototipo2.jpeg)
 
 
 ## 7. Decisiones de diseño 🎨
@@ -166,15 +166,15 @@ Se realizo varios testeos en los cuales pudimos detectar diversos problemas para
 
 ## Interfaz final 🤩
 
-![imagen6](img/iu_1.JPG)
-![imagen7](img/iu_2.JPGg)
-![imagen8](img/iu_3.JPG)
-![imagen9](img/iu_4.JPG)
-![imagen10](img/iu_5.JPG)
-![imagen11](img/iu_6.JPG)
-![imagen12](img/iu_7.JPG)
-![imagen13](img/iu_8.JPG)
-![imagen14](img/iu_9.JPG)
+![imagen6](src/img/iu_1.JPG)
+![imagen7](src/img/iu_2.JPGg)
+![imagen8](src/img/iu_3.JPG)
+![imagen9](src/img/iu_4.JPG)
+![imagen10](src/img/iu_5.JPG)
+![imagen11](src/img/iu_6.JPG)
+![imagen12](src/img/iu_7.JPG)
+![imagen13](src/img/iu_8.JPG)
+![imagen14](src/img/iu_9.JPG)
 
 
 Autoras ✒️
