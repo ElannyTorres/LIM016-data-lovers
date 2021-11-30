@@ -28,7 +28,7 @@ Studio Ghibli Library nos permite ver los datos de manera ordenada y sencilla. P
 
 ## 3. Características del proyecto ✅
 
-El desarrollo del producto proyecto utiliza diversos métodos para mostrar los datos de preferencia del usuario. 
+El desarrollo del producto proyecto utiliza diversos métodos para mostrar los datos de preferencia del usuario.
 
 
 ## 4. Funcionalidad ⚙️
@@ -88,17 +88,34 @@ Para su correcto funcionamiento el usuario debera elegir entre los métodos de f
 * Test de la función de filtrado por película
 * Test de la función de filtrado por especies
 
+### 📖HU04 : Yo **COMO** usuario **QUIERO**  una lista de las películas por su puntaje en Rotten Tomatoes **PARA** poder conocer las mejores puntuadas, así como para poder obversar el puntaje de cada una.
 
-### 📖HU04
 #### Criterios de Aceptación
+* Hay un opción llamada "Top rated" que me permite observar las películas junto con su nombre, su año de publicación y su puntaje.
+* Ordenar las películas de forma descendente.
 #### Definición de Terminado
-### 📖HU05
-#### Criterios de Aceptación
-#### Definición de Terminado
-### 📖HU06
-#### Criterios de Aceptación
-#### Definición de Terminado
+* Podemos observar la opción de "Top rated", al seleccionarla se presentan las 20 películas ordenadas por su puntaje de forma ascendente.
+* Test de usabilidad.
+* Pasó el test de la función.
 
+### 📖HU05 : Yo **COMO** usuario **QUIERO** observar algunas estadísticas del Studio Ghibli **PARA** conocer más detalle de su trabajo.
+
+#### Criterios de Aceptación
+* Correcto entendimiento de las gráficas estadísticas.
+
+#### Definición de Terminado
+* Hay un botón en el navegador que nos permite dirigirnos a la sección de Stadistics.
+* Hay una sección específica para la estadística.
+* Se puede obsevar el número de personajes que hay en cada película.
+
+### 📖HU06 : Yo **COMO** usuario **QUIERO** ingresar a la página web en diferentes dispositivos móviles **PARA** tener un fácil acceso a la información desde donde me encuentre.
+
+#### Criterios de Aceptación
+* Es adaptable para celulares y para tablets.
+* Por el tamaño de las estadísticas se optó por eliminar la información de esta al llegar a dispositivos móviles más pequeños.
+* Para los celularfes se usó el menú desplegable tipo hamburguesa.
+#### Definición de Terminado
+* La página web se puede visualizar desde cualquier tipo de dispositivo móvil, adaptándose a los diferentes tamaños. Para los dispositivos móviles en el header se observa el menú hamburguesa.
 
 ## 6. Prototipo ⚒️
 
