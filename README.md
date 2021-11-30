@@ -167,7 +167,7 @@ Se realizo varios testeos en los cuales pudimos detectar diversos problemas para
 ## Interfaz final 🤩
 
 ![imagen6](src/img/iu_1.JPG)
-![imagen7](src/img/iu_2.JPGg)
+![imagen7](src/img/iu_2.JPG)
 ![imagen8](src/img/iu_3.JPG)
 ![imagen9](src/img/iu_4.JPG)
 ![imagen10](src/img/iu_5.JPG)
